@@ -16,7 +16,7 @@ export default function App() {
         avatar={userData.avatar}
         stats={userData.stats}
       />
-      < FriendList friend={friends} />
+      < FriendList friends={friends} />
       < TransactionHistory info = {info} />
     </div>
   );
